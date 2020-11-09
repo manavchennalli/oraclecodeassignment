@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestExecutionSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.test.reporting.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="5" name=" Send Email Test (failed)">
+    <classes>
+      <class name="com.aconex.tests.AconexTestClass">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+          <include name="saveTheSearch"/>
+          <include name="tearDown"/>
+          <include name="uploadNewDocument"/>
+        </methods>
+      </class> <!-- com.aconex.tests.AconexTestClass -->
+    </classes>
+  </test> <!--  Send Email Test (failed) -->
+</suite> <!-- Failed suite [TestExecutionSuite] -->

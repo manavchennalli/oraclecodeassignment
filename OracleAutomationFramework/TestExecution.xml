@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestExecutionSuite" parallel="false">
+	<listeners>
+		<listener class-name="com.test.reporting.ExtentReportNG" />
+	</listeners>
+	<test name=" Send Email Test ">
+		<classes>
+			<class name="com.aconex.tests.AconexTestClass" />
+		</classes>
+	</test>
+</suite>
